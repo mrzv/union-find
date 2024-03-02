@@ -10,3 +10,5 @@ endif()
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/ext/nanobind)
 
 nanobind_add_module(union_find union-find.cpp)
+
+install(TARGETS union_find LIBRARY DESTINATION .)
