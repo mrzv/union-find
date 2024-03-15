@@ -11,6 +11,8 @@ classifiers = [
     "License :: BSD",
 ]
 
+dependencies = ["nanobind==1.9.2"]
+
 [project.urls]
 Homepage = "https://github.com/mrzv/union-find"
 
